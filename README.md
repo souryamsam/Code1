@@ -19,3 +19,14 @@ print("division =", a/b)
 Note: Division always gives a float result in Python (e.g., 7 / 2 = 3.5).
 
 Explanation of task 2
+Input First Name
+a = input("Enter the first name: ")
+This asks the user to type their first name and stores it in the variable a.
+Input Last Name
+b = input("Enter the last name: ")
+This asks the user to type their last name and stores it in the variable b.
+Concatenate Strings
+The print() statement combines text and the values of a and b:
+"Hello, " + a + " " + b + "! Welcome to the Python program."
+Here, the + operator is used to join strings.
+(a space between a and b) ensures the first and last names don’t stick together.
